@@ -1,0 +1,40 @@
+.container {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15em;
+
+    h1 {
+        font-weight: bold;
+        font-size: 4.4rem;
+        line-height: 200%;
+        border-bottom: 1px solid #000;
+        z-index: 2;
+        position: relative;
+    }
+
+    h1:before{
+        position: absolute;
+        content: "N";
+        color: rgba(0, 0, 0, 0.05);
+        font-size: 30rem;
+        z-index: -1;
+        transform: translate3d(-50%, -40%, 0);
+    }
+
+    h2 {
+        font-weight: bold;
+        font-size: 2.2rem;
+    }
+}
+
+.article__container {
+    display: flex;
+    gap: 5.8em;
+    z-index: 2;
+}
+
+.article__container__item {
+   padding: 1em;
+}
