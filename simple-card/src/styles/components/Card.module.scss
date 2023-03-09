@@ -1,0 +1,49 @@
+.card {
+    width: 230px;
+    background-color: #2F3740;
+    padding: 2em;
+    border-radius: 1.4em;
+
+    img{
+        width: 100%;
+        height: 100%;
+        border-radius: 1em;
+        
+    }
+
+    h1{
+        font-size: 3rem;
+        line-height: 120%;
+        font-weight: bold;
+    }
+}
+
+.tag {
+    
+    margin: 1em 0;
+    background-color: #455260;
+    padding: 0.4em 0.6em;
+    border-radius: 0.2em;
+    display: inline-block;
+    
+
+    a {
+        color: #BEFF00;
+        font-size: 1.2rem;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+}
+
+.cta {
+    display: flex;
+    align-items: center;
+
+    p{
+        margin: 0;
+    }
+
+    svg {
+        margin-left: 0.5em;
+    }
+}

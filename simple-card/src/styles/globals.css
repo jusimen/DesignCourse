@@ -1,0 +1,18 @@
+html{
+    font-size: 62.5%;
+}
+
+body{
+    background-color: #20262C;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.6;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
