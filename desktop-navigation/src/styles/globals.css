@@ -1,0 +1,16 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.8rem;
+  font-family: 'Nunito', sans-serif;
+  color: #000;
+  background-color: #E9EDF1;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}

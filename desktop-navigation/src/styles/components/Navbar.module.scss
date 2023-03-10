@@ -1,0 +1,40 @@
+.container {
+    background-color: #DBE1E8;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1em;
+    
+}
+
+.menu{
+    
+    .item{
+        margin: 0 1em;
+
+        &:hover{
+            color: #0460BC;
+        }
+
+        &.active{
+            font-weight: bold;
+        }
+
+    }
+
+}
+
+.button{
+    padding: 0.3em 0.9em;
+    border-radius: 4px;
+    background-color: #C3CCD7;
+
+    &:hover{
+        background-color: #B5C0CE;
+    }
+}
