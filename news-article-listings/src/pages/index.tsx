@@ -3,7 +3,7 @@ import styles from '@/styles/pages/Home.module.scss'
 
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <div className={styles.wrapper}>
       <Head>
         <title>News Article Listings</title>
       </Head>
@@ -12,7 +12,7 @@ export default function Home() {
         <div className={styles.article__container}>
           <div className={styles.article}>
             <h2>Engagement at an all time low among young voters</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit quo omnis a delectus minus maiores.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos laboriosam impedit sed vel quia ipsum pariatur, consequuntur iure a ex. Expedita nobis, sequi aut asperiores magni non accusantium doloribus exercitationem.</p>
           </div>
           <div className={styles.article}>
             <h2>Engagement at an all time low among young voters</h2>

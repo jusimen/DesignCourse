@@ -1,9 +1,7 @@
-.container {
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 15em;
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2.4em;
 
     h1 {
         font-weight: bold;
@@ -27,14 +25,40 @@
         font-weight: bold;
         font-size: 2.2rem;
     }
+
+    main {
+        margin-top: 5em;
+    }
 }
 
 .article__container {
     display: flex;
-    gap: 5.8em;
+    flex-direction: column;
     z-index: 2;
 }
 
 .article__container__item {
    padding: 1em;
+}
+
+@media screen and (min-width: 600px) {
+    .article__container {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 3em;
+    }
+
+    .article {
+        flex: 1;
+    }
+
+    .article:nth-of-type(1){
+        flex-basis: 100%;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .article:nth-of-type(1){
+        flex-basis: 0;
+    }
 }
