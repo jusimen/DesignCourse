@@ -1,0 +1,12 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color: #7000FF;
+    padding: 2em;
+    border-radius: 10px;
+
+    p{
+        font-size: 1.8rem;
+        font-weight: 700;   
+    }
+}

@@ -1,0 +1,23 @@
+.wrapper{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    justify-content: center;
+    height: 100vh;
+    padding: 0 2em;
+}
+
+.note{
+    font-size: 1.4rem;
+    margin: 0 2em;
+    text-align: center;
+
+    span{
+        font-weight: 700;
+    }
+}

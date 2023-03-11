@@ -1,0 +1,22 @@
+.container{
+    display: flex;
+    gap: 2em;
+    flex-direction: column;
+    border: 3px solid #2E2E2E;
+    padding: 3em 2em;
+    border-radius: 10px;
+
+    h1{
+        font-size: 3.2rem;
+    }
+
+    p{
+        font-size: 1.8rem;
+    }
+}
+
+.item {
+    display: flex;
+    gap: 2em;
+
+}
