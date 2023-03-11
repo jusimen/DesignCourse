@@ -1,13 +1,13 @@
 .wrapper{
-    max-width: 1200px;
+    max-width: 1400px;
     margin: 0 auto;
 }
 
 .container{
     display: flex;
     flex-direction: column;
-    gap: 1em;
     justify-content: center;
+    gap: 1em;
     height: 100vh;
     padding: 0 2em;
 }
@@ -16,8 +16,58 @@
     font-size: 1.4rem;
     margin: 0 2em;
     text-align: center;
+    color: #878787;
 
     span{
         font-weight: 700;
+    }
+}
+
+
+@media screen and (min-width: 650px){
+    .container{
+        flex-direction: row;
+        flex-wrap: wrap;
+        height: min-content;
+    }
+
+    .cta__wrapper{
+        justify-content: center;
+        align-items: center;
+        flex-basis: 100%;
+    }
+
+
+    .note {
+        max-width: 25em;
+        margin: 0 auto;
+    }   
+}
+
+@media screen and (min-width: 900px){
+
+    .wrapper{
+        padding: 5em 0;
+    }
+
+    .container{
+        flex-wrap: nowrap;
+        gap: 1em;
+    }
+
+    .cta__wrapper{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        flex:3;
+    }
+
+    .cta{
+        flex-basis: 0;
+    }
+
+    .note {
+        text-align: start;
+        margin: 1em 0;
     }
 }

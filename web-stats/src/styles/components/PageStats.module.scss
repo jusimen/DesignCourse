@@ -15,8 +15,12 @@
     }
 }
 
-.item {
-    display: flex;
-    gap: 2em;
-
+@media screen and (min-width: 650px){
+    .container{
+        padding: 1.5em;
+        flex-direction: row;
+        justify-content: space-evenly;
+        gap: 2em;
+        flex:5;
+    }
 }

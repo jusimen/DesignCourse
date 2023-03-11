@@ -10,3 +10,15 @@
         font-weight: 700;   
     }
 }
+
+@media screen and (min-width: 650px){
+    .container{
+        flex:2;
+    }
+}
+
+@media screen and (min-width: 900px){
+    .container{
+        flex:2;
+    }
+}
